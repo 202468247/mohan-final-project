@@ -1,6 +1,6 @@
 # mohan-final-project
 
-About the "ServiceReferral" Webbased solution
+About the "ServiceReferral" Web based solution
 __________________________________________________________________________________________________________
 This solution connects those who deliver services, corporations and individuals, to general public offering
 highest possible discounts while maintaining the best of quality. The system will rank the service providers
