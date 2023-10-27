@@ -1,12 +1,19 @@
 # mohan-final-project
 
-About the "ServiceReferral" Web based solution
+About the Service Referral "ServiceConnect.com" Web based solution
 __________________________________________________________________________________________________________
 
-This solution connects those who deliver services, corporations and individuals, to general public offering
-highest possible discounts while maintaining the best of quality. The system will rank the service providers
-and the members based on our merit points and give the utmost quality of service for fraction of cost.
+This solution connects those who deliver services, corporations or individuals, to general public offering
+highest possible discounts while maintaining the best quality services. The solution will rank the service providers
+and also the clients based on our merit points criteria and give the utmost quality of service for fraction of cost.
 
+This is a free service to the public but they should have already signed-in to access the required services. The service
+providers will pay a percentage of the sales to the Service Referral business.
+
+They will be able to see all the best ranked service providers and eligible to get the most amount of discount and 
+the best quality services compared to usually what is out there in the market.
+
+Based on the client history, they will receive notification to any new services or promotions added into the system.
 
 
 Figma Design
@@ -19,10 +26,15 @@ https://www.figma.com/file/aBGEEWYecWnlxMqvG5Hxbb/Service-Referral?type=design&n
 User Stories
 __________________________________________________________________________________________________________
 
-Main User:
+Client User:
 
-As a member (customer) to "ServiceReferral" program, I would like to easily access the best and reliable 
-services in each category for less costs.
+As a member (client) to "ServiceReferral" program, I would like to easily access the best and reliable 
+services in each category for discounted price.
+
+Service provider:
+
+I will make sure to provide the best possible service with the best possible discount to clients through ServiceReferral 
+program thus keeping the clients intact and create additonal client base.
 
 Admin:
 
