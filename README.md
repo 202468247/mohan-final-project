@@ -3,9 +3,14 @@
 About the Service Referral "ServiceConnect.com" Web based solution
 __________________________________________________________________________________________________________
 
+Mission Statement:
+
 This solution connects those who deliver services, corporations or individuals, to general public offering
-highest possible discounts while maintaining the best quality services. The solution will rank the service providers
-and also the clients based on our merit points criteria and give the utmost quality of service for fraction of cost.
+highest possible discounts while maintaining the best quality services. 
+
+Mission Objectives:
+
+The solution will rank the service providers and also the clients based on our merit points criteria and give the utmost quality of service for fraction of cost.
 
 This is a free service to the public but they should have already signed-in to access the required services. The service
 providers will pay a percentage of the sales to the Service Referral business.
@@ -23,7 +28,7 @@ https://www.figma.com/file/aBGEEWYecWnlxMqvG5Hxbb/Service-Referral?type=design&n
 
 
 
-User Stories
+User Stories/Interviews:
 __________________________________________________________________________________________________________
 
 Client User:
@@ -40,3 +45,39 @@ Admin:
 
 As a manager, I want to make sure only the best quality services are being offered for competitive price.
 Also want to make sure the most competitive services are ranked on the top and featured on our site.
+
+______________________________________________________________________________________________________________
+
+Service Providers
+  - Name
+  - User Name
+  - Password
+  - Address
+  - Email
+  - Phone
+  - Service Provider Type (Corporation/Individual)
+  - Type of Service / Category (Real Estate, Plumbing, Electrical....)
+  - Regular Price
+  - Discount
+
+Clients
+  - Name
+  - User Name
+  - Password
+  - Address
+  - Email
+  - Phone
+
+Service Listing
+  - Type of Service
+  - 
+
+Sales
+  - Client ID
+  - Service Provider ID
+  - 
+
+______________________________________________________________________________________________________________
+
+Business Rules:
+
