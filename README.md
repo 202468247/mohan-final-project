@@ -56,7 +56,6 @@ Service Providers
   - Service Provider Type (Corporation/Individual)
   - Type of Service / Category (Real Estate, Plumbing, Electrical....)
   - Regular Price
-  - Discount
 
 Clients
   - Name
@@ -66,26 +65,37 @@ Clients
   - Email
   - Phone
 
-Service Listing
+Services
   - Type of Service
-  - 
+  - Location
+  - Description
+
+Service Listing
+  - Service Provider Name
+  - Type of Service
+  - Discount
 
 Sales
   - Client ID
-  - Service Provider ID
-  - 
+  - Service Listing ID
+  - Offer
+  - Confirmation
 
 ______________________________________________________________________________________________________________
 
 [Business Rules]
 
-
-
+- Public has access to services without discount.
+- Only the clients who signed up has discount.
+- Clients and Service Providers score points based on history. High score clients and Service providers has better discount and got priorities for services.
 ______________________________________________________________________________________________________________
 
-[Table Relationships]
+[ Entiry relationships]
 
-
+- One Service provider may have many services.
+- One service provider create many serivce listings
+- One Client can access many service listings
+- Many Clients can have many Sales transactions
 
 ______________________________________________________________________________________________________________
 
