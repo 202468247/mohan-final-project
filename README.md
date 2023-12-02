@@ -48,6 +48,7 @@ ________________________________________________________________________________
 [Operations/Functionalities]
 
 Operation 1: Owner/Administer will manage client and service provider detail and access to the system
+
             Functionality:
             a. Owner/Administrator will create, edit and update the clients and service provider personal details. 
             b. allow access of clients to the system. This will trigger notification to the clients of their permission to access.
@@ -57,18 +58,21 @@ Operation 1: Owner/Administer will manage client and service provider detail and
             e. view financial details.
 
 Operation 2: Service provider to manage their services
+
             Functionality:
             a. Service provider will accept the invitation from owner/administor and update their profile.
             b. Service provider setup payment method (Payment goes only to the owner)
             c. Service provider create service category lists and with their offer of discount
 
 Operation 3: Service provider view request from clients, decide to accept or reject, if accepted then contact client to provide service
+
             Functionality:
             a. Service provider to accept/deny requests from the clients
             b. service provider contacts clients through available contact information
             c. service provider complete the service and close the request.
 
 Operation 4: Client user view the discount by category on the front page and decide to register to request the service
+
              Funtionality:
              a. Client can register with the system
              b. Client can create/update their profile.
