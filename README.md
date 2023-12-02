@@ -94,13 +94,13 @@ Service_Providers
   - Service_Provider_id
   - First_Name
   - Last_Name
-  - User Name
+  - User_Name
   - Password
   - Address
   - Email
   - Phone
   - address
-  - Service Provider Type (Corporation/Individual)
+  - Service_Provider_Type (Corporation/Individual)
   - service_category (Real Estate, Plumbing, Electrical....)
   - Regular_Price
   - active
@@ -130,6 +130,7 @@ Clients
   - Active
 
 Sales
+  - Sales_id
   - Client_id
   - Service_Provider_id
   - Service_listing_id
@@ -144,8 +145,8 @@ ________________________________________________________________________________
 
 [Business Rules]
 
-- Public has access to services without discount.
-- Only the clients who signed up has discount.
+- Public can view services without discount. No registration needed.
+- Only the clients who registered has discount and request for services.
 - Clients and Service Providers score points based on history. High score clients and Service providers has better discount and got priorities for services.
 ______________________________________________________________________________________________________________
 
