@@ -47,17 +47,26 @@ ________________________________________________________________________________
 
 [Operations/Functionalities]
 
-Operation 1: Owner/Administer will manage client and service provider access to the system
+Operation 1: Owner/Administer will manage client and service provider detail and access to the system
             Functionality:
-            a. 
+            a. Owner/Administrator will create, edit and update the clients and service provider personal details. 
+            b. allow access of clients to the system. This will trigger notification to the clients of their permission to access.
+            b. monitor the clients requests
+            c. adjust the discount according to the latest market conditions.
+            d. view clients and Service provider history
+            e. view financial details.
 
-Operation 2: Service provider list and manage their services
-            a. 
+Operation 2: Service provider to manage their services
+            Functionality:
+            a. Service provider will accept the invitation from owner/administor and update their profile.
             b. Service provider setup payment method (Payment goes only to the owner)
-            c. 
+            c. Service provider create service category lists and with their offer of discount
 
 Operation 3: Service provider view request from clients, decide to accept or reject, if accepted then contact client to provide service
-
+            Functionality:
+            a. Service provider to accept/deny requests from the clients
+            b. service provider contacts clients through available contact information
+            c. service provider complete the service and close the request.
 
 Operation 4: Client user view the discount by category on the front page and decide to register to request the service
              Funtionality:
@@ -104,24 +113,32 @@ Service_Category
 
 Service_Listing
   - service_listing_id
-  - Service_provider_id  - 
+  - Service_provider_id
   - category_id
   - listed_date
   - Discount
 
 Clients
-  - Name
-  - User_Nae
+  - Client_id
+  - First_Name
+  - Last_Name
+  - User_Name
   - Password
   - Address
   - Email
   - Phone
+  - Active
 
 Sales
-  - Client ID
-  - Service Listing ID
-  - Offer
-  - Confirmation
+  - Client_id
+  - Service_Provider_id
+  - Service_listing_id
+  - Sales_description
+  - Client_Request (Yes/No)
+  - Retailer_Confirmation (Yes/No)
+  - actual_discount (must be equal or more than set discount) 
+  - Active (yes/no)
+  - Close (yes/no)
 
 ______________________________________________________________________________________________________________
 
