@@ -38,15 +38,40 @@ Service provider:
 I will make sure to provide the best possible service with the best possible discount to clients through ServiceReferral 
 program thus keeping the clients intact and create additonal client base.
 
-Admin:
+Owner/Administrator/Manager:
 
 As a manager, I want to make sure only the best quality services are being offered for competitive price.
 Also want to make sure the most competitive services are ranked on the top and featured on our site.
 
-______________________________________________________________________________________________________________
-[Data Structures]
+_____________________________________________________________________________________________________________
 
-Service Providers
+[Operations/Functionalities]
+
+Operation 1: Owner/Administer will manage client and service provider access to the system
+            Functionality:
+            a. 
+
+Operation 2: Service provider list and manage their services
+            a. 
+            b. Service provider setup payment method (Payment goes only to the owner)
+            c. 
+
+Operation 3: Service provider view request from clients, decide to accept or reject, if accepted then contact client to provide service
+
+Operation 4: Client user view the discount by category on the front page and decide to register to request the service
+             Funtionality:
+             a. Client can register with the system
+             b. Client can create/update their profile.
+             c. Client can browse services and the discounts based on the client history.
+             d. Add number of services to the shoppig cart.
+             e. Submit requests to the service provider (Service provider's contact is hidden)
+             f. View status of the requests.
+             g. Rate and feedback each requests after receiving the services.
+
+______________________________________________________________________________________________________________
+[Data Structures / Tables]
+
+Service_Providers
   - Name
   - User Name
   - Password
