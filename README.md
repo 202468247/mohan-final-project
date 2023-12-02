@@ -58,6 +58,7 @@ Operation 2: Service provider list and manage their services
 
 Operation 3: Service provider view request from clients, decide to accept or reject, if accepted then contact client to provide service
 
+
 Operation 4: Client user view the discount by category on the front page and decide to register to request the service
              Funtionality:
              a. Client can register with the system
@@ -71,34 +72,50 @@ Operation 4: Client user view the discount by category on the front page and dec
 ______________________________________________________________________________________________________________
 [Data Structures / Tables]
 
+Administrator
+  - userid
+  - first_name
+  - last_name
+  - user_name
+  - password
+  - email
+  - active
+    
 Service_Providers
-  - Name
+  - Service_Provider_id
+  - First_Name
+  - Last_Name
   - User Name
   - Password
   - Address
   - Email
   - Phone
+  - address
   - Service Provider Type (Corporation/Individual)
-  - Type of Service / Category (Real Estate, Plumbing, Electrical....)
-  - Regular Price
+  - service_category (Real Estate, Plumbing, Electrical....)
+  - Regular_Price
+  - active
+
+Service_Category
+   - category_id
+   - category_name
+   - category_description
+   - min_discount
+
+Service_Listing
+  - service_listing_id
+  - Service_provider_id  - 
+  - category_id
+  - listed_date
+  - Discount
 
 Clients
   - Name
-  - User Name
+  - User_Nae
   - Password
   - Address
   - Email
   - Phone
-
-Services
-  - Type of Service
-  - Location
-  - Description
-
-Service Listing
-  - Service Provider Name
-  - Type of Service
-  - Discount
 
 Sales
   - Client ID
